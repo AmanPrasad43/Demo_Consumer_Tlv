@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="4.4.0.0" Version="2" LastUpdateBy="hirals" LastUpdate="202206071322" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Get Delivery Method" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="Catalog One" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="amanpras" LastUpdate="202310261152" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Get Delivery Method" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Catalog One" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Get Delivery Method" Guid="d79ed7c7-7cb4-4dd6-bcad-daf75387f2aa" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -9,7 +9,7 @@
 </ActDummy>
 <ActDummy Active="True" Description="Set Delivery Method" Guid="3060b22f-b229-4971-a351-ca46ab91d4b0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="3" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="6e99fa19-ae26-4fbf-ab23-b908b0c23a39" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Delivery Method={Var Name=Random_Delivery Method}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="6e99fa19-ae26-4fbf-ab23-b908b0c23a39" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Delivery Method={Var Name=Random_Delivery Method}" />
 </FlowControls>
 
 <InputValues>
@@ -18,7 +18,7 @@
 </ActDummy>
 <ActDummy Active="True" Description="Set Delivery Cost" Guid="353dfa52-f1d5-4ccb-89b5-fe6ba1deb773" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="8841e712-5688-4c23-a450-4645e6da29ff" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Delivery Cost={Var Name=Random_Delivery Cost}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="8841e712-5688-4c23-a450-4645e6da29ff" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Delivery Cost={Var Name=Random_Delivery Cost}" />
 </FlowControls>
 
 <InputValues>
@@ -26,6 +26,10 @@
 </InputValues>
 </ActDummy>
 </Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="5bb65b15-4ef6-4453-8707-9236cae4ce3a" Guid="38ab434d-337f-4386-9f14-4683c4ac369a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
 
 <Variables>
 <VariableString Guid="7781775e-07da-41ae-9185-653e10bc5e30" InitialStringValue="25252525" MandatoryInput="True" MappedOutputType="None" Name="ProductOrderId" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />

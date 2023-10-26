@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ItemType="Activity" CreatedBy="ITSIKD" Created="202302151353" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202302202159" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Compliance Request" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="Compliance" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ItemType="Activity" CreatedBy="ITSIKD" Created="202302151353" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310261152" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Compliance Request" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Compliance" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Sending a compliance request- API Model Execution" Guid="fe5c5361-f4a4-4748-bd0d-3289f50deda2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -8,4 +8,11 @@
 </InputValues>
 </ActWebAPIModel>
 </Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="ca2f293c-c20e-4a6c-a6b1-45d3e58386c0" Guid="464e7c59-1c01-4df3-a1bc-0a6011821b8c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="926dc3b0-9699-46de-b380-1440b9cca249" Guid="d594f7bb-9998-4d4b-b9d1-71631cdc0e4d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="4327fc9c-c653-49df-a9f8-8eaca21244a2" Guid="11062c3a-ffe6-4197-b4df-74c9eda5387c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="857fe91f-b26c-40ce-9911-0011f8790c78" Guid="a339f4ff-32fb-4352-9f72-e01e7540e2b5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
 </Activity></GingerRepositoryItem>
