@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ItemType="Activity" CreatedBy="ITSIKD" Created="202302151353" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310261152" />
+<GingerRepositoryItem><Header ItemGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ItemType="Activity" CreatedBy="ITSIKD" Created="202302151353" GingerVersion="23.4.0.0" Version="6" LastUpdateBy="amanpras" LastUpdate="202310261154" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Balance Inquery" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Balance" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Sending a balance inquiry request- API Model Execution" Guid="e7829d70-dc35-4c78-943a-384e76ccaba0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
@@ -10,7 +10,7 @@
 </Acts>
 
 <ConsumerApplications>
-<Consumer ConsumerGuid="64eab69f-cb20-4837-b57d-5c157b0370ab" Guid="15147a8c-3dec-46b1-bd7b-43b24bc0402f" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<Consumer ConsumerGuid="614bf662-32ba-4de6-9191-dccfb5b4e33e" Guid="c3bc7b87-ceed-4c8d-8887-bdbfc84c09dd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="64eab69f-cb20-4837-b57d-5c157b0370ab" Guid="d1bd4923-9771-4926-8ff0-b243da90c646" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="614bf662-32ba-4de6-9191-dccfb5b4e33e" Guid="59cf388e-d134-4855-b0ca-592d20d4f53c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 </Activity></GingerRepositoryItem>

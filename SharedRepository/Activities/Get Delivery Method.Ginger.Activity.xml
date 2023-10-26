@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="amanpras" LastUpdate="202310261152" />
+<GingerRepositoryItem><Header ItemGuid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="4" LastUpdateBy="amanpras" LastUpdate="202310261154" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Get Delivery Method" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="3912d8de-2b57-45c4-9ccb-8722c5636c2f" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Catalog One" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Get Delivery Method" Guid="d79ed7c7-7cb4-4dd6-bcad-daf75387f2aa" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
@@ -28,7 +28,7 @@
 </Acts>
 
 <ConsumerApplications>
-<Consumer ConsumerGuid="5bb65b15-4ef6-4453-8707-9236cae4ce3a" Guid="38ab434d-337f-4386-9f14-4683c4ac369a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="5bb65b15-4ef6-4453-8707-9236cae4ce3a" Guid="c1ad0f8b-8dab-46bb-b476-6572610bb736" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 
 <Variables>

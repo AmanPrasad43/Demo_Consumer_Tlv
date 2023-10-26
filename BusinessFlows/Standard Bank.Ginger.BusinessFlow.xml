@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="14e27021-bf75-416a-a74f-11b3f2a035c1" ItemType="BusinessFlow" CreatedBy="ITSIKD" Created="202302151347" GingerVersion="4.4.0.0" Version="25" LastUpdateBy="MENIK" LastUpdate="202302202159" />
-<BusinessFlow Elapsed="71920" Guid="14e27021-bf75-416a-a74f-11b3f2a035c1" Name="Standard Bank" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="14e27021-bf75-416a-a74f-11b3f2a035c1" ItemType="BusinessFlow" CreatedBy="ITSIKD" Created="202302151347" GingerVersion="23.4.0.0" Version="27" LastUpdateBy="amanpras" LastUpdate="202310261154" />
+<BusinessFlow Guid="14e27021-bf75-416a-a74f-11b3f2a035c1" Name="Standard Bank" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Home page" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="f0ddb72f-092e-4b25-bd09-baf66cd17c0d" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Customer Creation System" Type="Regular">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Home page" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="f0ddb72f-092e-4b25-bd09-baf66cd17c0d" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="Customer Creation System" Type="Regular">
 <Acts>
 <ActBrowserElement Active="True" Description="Browser Action" Guid="2e652f23-eb45-431b-9331-c380a71d1903" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -35,7 +35,7 @@
 </ActUIElement>
 </Acts>
 </Activity>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login Page" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="bc7822a9-01fd-46db-be6a-04b74bed73e0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Customer Creation System" Type="Regular">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login Page" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="bc7822a9-01fd-46db-be6a-04b74bed73e0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="Customer Creation System" Type="Regular">
 <Acts>
 <ActUIElement Active="True" Description="SetText - Utilizador" Guid="a6855f74-f034-421f-b89e-c175eed4eff2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -78,21 +78,21 @@
 </ActUIElement>
 </Acts>
 </Activity>
-<Activity ActivitiesGroupID="Group" ActivityName="Balance Inquery" Guid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ParentGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" Type="Link" />
-<Activity ActivitiesGroupID="Group" ActivityName="Compliance Request" Guid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ParentGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" Type="Link" />
-<Activity ActivitiesGroupID="Group" ActivityName="Payment Credit Transfer" Guid="c66950a3-3dbf-4471-992b-6084fc2e740e" ParentGuid="c66950a3-3dbf-4471-992b-6084fc2e740e" Type="Link" />
-<Activity ActivitiesGroupID="Group" ActivityName="Payment request for cancellation" Guid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" ParentGuid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Balance Inquery" Guid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ParentGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Compliance Request" Guid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ParentGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Payment Credit Transfer" Guid="c66950a3-3dbf-4471-992b-6084fc2e740e" ParentGuid="c66950a3-3dbf-4471-992b-6084fc2e740e" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Payment request for cancellation" Guid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" ParentGuid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="0e7fb3f8-84fc-4de3-b60e-54d4d2a714a4" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f0ddb72f-092e-4b25-bd09-baf66cd17c0d" ActivityName="Home page" Guid="52e983ab-9184-45a1-8880-28ae40be2f87" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="bc7822a9-01fd-46db-be6a-04b74bed73e0" ActivityName="Login Page" Guid="9afeb350-abe4-470d-a245-09b2cb6d1185" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ActivityName="Balance Inquery" Guid="e27f7dd3-1d01-4bc2-9a83-af75529c1458" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ActivityName="Compliance Request" Guid="b6c7b85c-520a-4ebb-b5f1-93b78a99000a" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c66950a3-3dbf-4471-992b-6084fc2e740e" ActivityName="Payment Credit Transfer" Guid="512be2f8-567e-40ad-863d-6fe0ce78e325" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" ActivityName="Payment request for cancellation" Guid="5e79390b-b8f9-4ab9-9861-c89c36cd7d27" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f0ddb72f-092e-4b25-bd09-baf66cd17c0d" ActivityName="Home page" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="52e983ab-9184-45a1-8880-28ae40be2f87" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="bc7822a9-01fd-46db-be6a-04b74bed73e0" ActivityName="Login Page" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="9afeb350-abe4-470d-a245-09b2cb6d1185" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" ActivityName="Balance Inquery" ActivityParentGuid="bc6637b3-7334-4d8a-a83f-f22a69bf5fcc" Guid="e27f7dd3-1d01-4bc2-9a83-af75529c1458" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ActivityName="Compliance Request" ActivityParentGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" Guid="b6c7b85c-520a-4ebb-b5f1-93b78a99000a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="c66950a3-3dbf-4471-992b-6084fc2e740e" ActivityName="Payment Credit Transfer" ActivityParentGuid="c66950a3-3dbf-4471-992b-6084fc2e740e" Guid="512be2f8-567e-40ad-863d-6fe0ce78e325" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" ActivityName="Payment request for cancellation" ActivityParentGuid="d5bfb274-4f6e-48bd-86bd-a8d2067a9fb9" Guid="5e79390b-b8f9-4ab9-9861-c89c36cd7d27" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
