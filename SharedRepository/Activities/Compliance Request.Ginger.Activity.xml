@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ItemType="Activity" CreatedBy="ITSIKD" Created="202302151353" GingerVersion="23.4.0.0" Version="8" LastUpdateBy="amanpras" LastUpdate="202310310957" />
+<GingerRepositoryItem><Header ItemGuid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ItemType="Activity" CreatedBy="ITSIKD" Created="202302151353" GingerVersion="23.4.0.0" Version="9" LastUpdateBy="amanpras" LastUpdate="202310311001" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Compliance Request" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e84adfb9-15e0-48c9-9650-2f2ed85a9cf3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Compliance" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Sending a compliance request- API Model Execution" Guid="fe5c5361-f4a4-4748-bd0d-3289f50deda2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
@@ -8,9 +8,4 @@
 </InputValues>
 </ActWebAPIModel>
 </Acts>
-
-<ConsumerApplications>
-<Consumer ConsumerGuid="4327fc9c-c653-49df-a9f8-8eaca21244a2" Guid="a0c955aa-4298-48b7-a819-ab9218eae3a5" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<Consumer ConsumerGuid="857fe91f-b26c-40ce-9911-0011f8790c78" Guid="0f6db286-bd12-49da-bd01-788b2766e6b1" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</ConsumerApplications>
 </Activity></GingerRepositoryItem>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="2b1ca3e4-a560-4f05-b074-ec575b510634" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310310529" />
+<GingerRepositoryItem><Header ItemGuid="2b1ca3e4-a560-4f05-b074-ec575b510634" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="6" LastUpdateBy="amanpras" LastUpdate="202310311001" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Customer and Account creation " AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="2b1ca3e4-a560-4f05-b074-ec575b510634" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Caas" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Get Customer Information" Guid="e3d87ca7-299b-4f57-af2d-5324fad128d6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">

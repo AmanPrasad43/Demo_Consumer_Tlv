@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28541916-8b44-42ef-9ebe-b16db5f23435" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="6" LastUpdateBy="amanpras" LastUpdate="202310310957" />
+<GingerRepositoryItem><Header ItemGuid="28541916-8b44-42ef-9ebe-b16db5f23435" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="amanpras" LastUpdate="202310311001" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Order" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="28541916-8b44-42ef-9ebe-b16db5f23435" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Digital One OC" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Create Order" Guid="2923922e-c5b8-41e4-941a-fa254c9a9071" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="5" WindowsToCapture="OnlyActiveWindow">
@@ -19,10 +19,6 @@
 </InputValues>
 </ActSetVariableValue>
 </Acts>
-
-<ConsumerApplications>
-<Consumer ConsumerGuid="66461ea7-e274-4ebf-8eec-a74783b58e95" Guid="50918996-84ec-4765-b9c3-3c30bc24830f" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</ConsumerApplications>
 
 <Variables>
 <VariableString Guid="7f32cef2-8e9a-4921-aba8-de8c8a14485b" InitialStringValue="11123401" MandatoryInput="True" MappedOutputType="None" Name="Serial Number" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
