@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28541916-8b44-42ef-9ebe-b16db5f23435" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="amanpras" LastUpdate="202310311001" />
+<GingerRepositoryItem><Header ItemGuid="28541916-8b44-42ef-9ebe-b16db5f23435" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="8" LastUpdateBy="amanpras" LastUpdate="202310311109" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Order" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="28541916-8b44-42ef-9ebe-b16db5f23435" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Digital One OC" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Create Order" Guid="2923922e-c5b8-41e4-941a-fa254c9a9071" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="5" WindowsToCapture="OnlyActiveWindow">
@@ -19,6 +19,13 @@
 </InputValues>
 </ActSetVariableValue>
 </Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="ca2f293c-c20e-4a6c-a6b1-45d3e58386c0" Guid="ca42f162-5c91-4f29-b923-22d44e40885d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="926dc3b0-9699-46de-b380-1440b9cca249" Guid="f6acf3ef-445f-4b03-8913-51964a73ee81" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="4327fc9c-c653-49df-a9f8-8eaca21244a2" Guid="d45dabd3-13e0-44b1-928d-36f7c978a01d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="857fe91f-b26c-40ce-9911-0011f8790c78" Guid="2af6a907-3e1f-48d6-9d6d-886a8c72458d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
 
 <Variables>
 <VariableString Guid="7f32cef2-8e9a-4921-aba8-de8c8a14485b" InitialStringValue="11123401" MandatoryInput="True" MappedOutputType="None" Name="Serial Number" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
