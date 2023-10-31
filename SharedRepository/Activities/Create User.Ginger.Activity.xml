@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="89b5c655-9cae-42bc-9cea-357e0f37339c" ItemType="Activity" CreatedBy="meni" Created="202206061426" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202302202159" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create User" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="89b5c655-9cae-42bc-9cea-357e0f37339c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="Customer Creation" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="89b5c655-9cae-42bc-9cea-357e0f37339c" ItemType="Activity" CreatedBy="meni" Created="202206061426" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310310529" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create User" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="89b5c655-9cae-42bc-9cea-357e0f37339c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Customer Creation" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Create user- API Model Execution" Guid="ff435dc6-fabd-4be8-8ee0-7853735629d7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>

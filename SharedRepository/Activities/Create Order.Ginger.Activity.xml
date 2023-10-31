@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28541916-8b44-42ef-9ebe-b16db5f23435" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202302202159" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Order" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="28541916-8b44-42ef-9ebe-b16db5f23435" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="Digital One OC" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="28541916-8b44-42ef-9ebe-b16db5f23435" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310310529" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Order" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="28541916-8b44-42ef-9ebe-b16db5f23435" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Digital One OC" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Create Order" Guid="2923922e-c5b8-41e4-941a-fa254c9a9071" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="5" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -9,7 +9,7 @@
 </ActDummy>
 <ActSetVariableValue Active="True" Description="Generate Order ID" Guid="608a56fe-388b-4131-9871-370a1e220348" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="5ab8c172-e6c4-44f5-9712-8fdd57ed3736" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Order_ID={Var Name=Random_OrderID}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="5ab8c172-e6c4-44f5-9712-8fdd57ed3736" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Order_ID={Var Name=Random_OrderID}" />
 </FlowControls>
 
 <InputValues>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="0fa03e5c-02b3-437a-be93-af2a9a944969" ItemType="Solution" CreatedBy="MKALE" Created="202205130840" GingerVersion="4.4.0.0" Version="40" LastUpdateBy="MENIK" LastUpdate="202302202200" />
+<GingerRepositoryItem><Header ItemGuid="0fa03e5c-02b3-437a-be93-af2a9a944969" ItemType="Solution" CreatedBy="MKALE" Created="202205130840" GingerVersion="23.4.0.0" Version="41" LastUpdateBy="amanpras" LastUpdate="202310310529" />
 <Solution EncryptedValidationString="gBCu9FEYgDA+bxfhZoGf4g==" Guid="0fa03e5c-02b3-437a-be93-af2a9a944969" Name="GingerMBTDemo" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ALMConfigs>
 <ALMConfig AlmType="QC" Guid="9f4664d7-cc19-416a-805b-0ef605e1fe2b" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -41,7 +41,7 @@
 </HTMLReportsConfigurationSetList>
 
 <SealightsConfiguration>
-<SealightsConfiguration Guid="b2dcf7ac-cd6d-4ab9-98f9-d7405a175d08" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" />
+<SealightsConfiguration Guid="b2dcf7ac-cd6d-4ab9-98f9-d7405a175d08" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SealightsTestRecommendations="No" />
 </SealightsConfiguration>
 
 <SolutionCategories>
@@ -77,9 +77,25 @@
 <SolutionCategory Category="UserCategory1" Guid="7e96e9c9-8944-40d3-b75e-eec84e757d72" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <SolutionCategory Category="UserCategory2" Guid="86d64397-9d05-47c6-abe9-adcf7f5ef8da" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <SolutionCategory Category="UserCategory3" Guid="920a5d74-825d-44bc-afda-ce3d402317fa" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<SolutionCategory Category="BusinessProcessTag" Guid="46079a46-0620-4c8b-a53c-7baea3817789" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="8a76a6a4-0882-4157-b75d-3e421eaff1d3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Prepaid" />
+<SolutionCategoryValue Guid="86af2b0f-121f-45f4-9f59-e909cfddb163" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Postpaid" />
+<SolutionCategoryValue Guid="beb5b99b-eb13-4826-90ec-c2f719f986fb" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer Creation" />
+<SolutionCategoryValue Guid="4d8eb0b5-fbb6-460c-b3bc-cbdad0d470cb" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Subscriber Creation" />
+<SolutionCategoryValue Guid="f7d00357-94ae-40d7-95f3-80b6fc427a51" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Contact Creation" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="SubBusinessProcessTag" Guid="7a12e63d-799a-49af-858e-d5edfe3c60c1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="27d3fc8b-51e3-4e65-90b9-ac2afd1f009f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer Payment (CP)" />
+<SolutionCategoryValue Guid="bd87aae3-fe8e-41f1-a544-859c6531eff4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer Question (CHQ)" />
+<SolutionCategoryValue Guid="114b5f77-b3c1-4eae-b864-95ea25d6455d" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Order Creation (COP)" />
+</CategoryOptionalValues>
+</SolutionCategory>
 </SolutionCategories>
 
 <VRTConfiguration>
-<VRTConfiguration FailActionOnCheckpointMismatch="Yes" Guid="35430225-5cb5-4414-99d8-98b5d52bab71" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="35430225-5cb5-4414-99d8-98b5d52bab71" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </VRTConfiguration>
 </Solution></GingerRepositoryItem>

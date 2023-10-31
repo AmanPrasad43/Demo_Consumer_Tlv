@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ad85a9a6-96f1-4fda-9dcf-d50f4f100c86" ItemType="Activity" CreatedBy="hirals" Created="202205201001" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="hirals" LastUpdate="202206071322" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Get Product order" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="ad85a9a6-96f1-4fda-9dcf-d50f4f100c86" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="Digital One OC" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="ad85a9a6-96f1-4fda-9dcf-d50f4f100c86" ItemType="Activity" CreatedBy="hirals" Created="202205201001" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310310528" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Get Product order" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="ad85a9a6-96f1-4fda-9dcf-d50f4f100c86" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Digital One OC" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Get Product order" Guid="27b3e3a5-163e-4061-b733-2a6af1f72814" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -9,7 +9,7 @@
 </ActDummy>
 <ActDummy Active="True" Description="Set Order Monthly charge" Guid="5a1c7381-86d5-4916-92ab-b63cafa0cadb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="3" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="1e7c01b1-23da-4e28-9c4e-9f79cf12c750" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Order Monthly Charge={Var Name=Random_Order Monthly Charge}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="1e7c01b1-23da-4e28-9c4e-9f79cf12c750" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Order Monthly Charge={Var Name=Random_Order Monthly Charge}" />
 </FlowControls>
 
 <InputValues>
@@ -18,7 +18,7 @@
 </ActDummy>
 <ActDummy Active="True" Description="Set Order Prorate Charge" Guid="64c13ca6-be64-430d-9e41-68e6239201e7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="d60d68c8-2dbf-4834-816d-7695eae5f110" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Order Prorate Charge={Var Name=Random_Order Prorate Charge}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="d60d68c8-2dbf-4834-816d-7695eae5f110" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Order Prorate Charge={Var Name=Random_Order Prorate Charge}" />
 </FlowControls>
 
 <InputValues>
@@ -27,7 +27,7 @@
 </ActDummy>
 <ActDummy Active="True" Description="Set Tax Charge" Guid="59d8904c-102a-49db-afe4-345dbcfd61fb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="aa98b3e9-1be7-4d91-867a-cad60cbc6ef4" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Taxes Charge={Var Name=Random_Taxes Charge}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="aa98b3e9-1be7-4d91-867a-cad60cbc6ef4" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Taxes Charge={Var Name=Random_Taxes Charge}" />
 </FlowControls>
 
 <InputValues>

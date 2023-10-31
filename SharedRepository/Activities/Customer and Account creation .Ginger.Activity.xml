@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="2b1ca3e4-a560-4f05-b074-ec575b510634" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="4.4.0.0" Version="4" LastUpdateBy="MENIK" LastUpdate="202302202159" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Customer and Account creation " AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="2b1ca3e4-a560-4f05-b074-ec575b510634" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Publish="True" TargetApplication="Caas" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="2b1ca3e4-a560-4f05-b074-ec575b510634" ItemType="Activity" CreatedBy="meni" Created="202206061021" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="amanpras" LastUpdate="202310310529" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Customer and Account creation " AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="2b1ca3e4-a560-4f05-b074-ec575b510634" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="Caas" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Get Customer Information" Guid="e3d87ca7-299b-4f57-af2d-5324fad128d6" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -9,7 +9,7 @@
 </ActDummy>
 <ActSetVariableValue Active="True" Description="Generate Customer ID" Guid="395d2761-6b49-4daa-9cc6-eb0641699da1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="3" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="b18e3009-cf91-41f2-ae00-1e0bdafaff67" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Customer ID={Var Name=Random_Customer_ID}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="b18e3009-cf91-41f2-ae00-1e0bdafaff67" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Customer ID={Var Name=Random_Customer_ID}" />
 </FlowControls>
 
 <InputValues>
@@ -20,7 +20,7 @@
 </ActSetVariableValue>
 <ActSetVariableValue Active="True" Description="Generate Billing Account Number" Guid="5a85fc91-59d0-4147-bb8f-2919fc17173f" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="9867b1f5-f9c1-4c79-b3ad-68a731dfabc7" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Billing AccNo={Var Name=Random_billingno}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="9867b1f5-f9c1-4c79-b3ad-68a731dfabc7" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Billing AccNo={Var Name=Random_billingno}" />
 </FlowControls>
 
 <InputValues>
@@ -31,7 +31,7 @@
 </ActSetVariableValue>
 <ActSetVariableValue Active="True" Description="Generate Place ID" Guid="e6d56752-7053-4ff1-b1ee-2662c8c10e67" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="b25ec20f-ab6f-481f-9844-5577b2d8d9d0" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Place ID={Var Name=Random_Place ID}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="b25ec20f-ab6f-481f-9844-5577b2d8d9d0" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Place ID={Var Name=Random_Place ID}" />
 </FlowControls>
 
 <InputValues>
@@ -42,7 +42,7 @@
 </ActSetVariableValue>
 <ActDummy Active="True" Description="Set Billing Address" Guid="134a33cf-2cab-4b64-8b4e-91f289fb6b2c" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="21c0a955-2d54-4997-9db9-da379db50638" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Billing Address={Var Name=Random_Billing Address}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="21c0a955-2d54-4997-9db9-da379db50638" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Billing Address={Var Name=Random_Billing Address}" />
 </FlowControls>
 
 <InputValues>
@@ -51,7 +51,7 @@
 </ActDummy>
 <ActDummy Active="True" Description="Set Address" Guid="6a681311-d1b3-4427-98ce-792de6456b23" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="2caf6265-4b7c-46fa-a497-598c3ed0d54e" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Address={Var Name=Random_Address}" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="SetVariableValue" Guid="2caf6265-4b7c-46fa-a497-598c3ed0d54e" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="Address={Var Name=Random_Address}" />
 </FlowControls>
 
 <InputValues>
